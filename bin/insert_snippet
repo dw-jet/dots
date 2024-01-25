@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Dedicated snippets file
+snippets_file="$HOME/.local/share/snippets.txt"
+
+# Use the automation tool xdotool to type out the selected line
+# From the snippets file. If there is a space it will be cut out before typing (So I can tag with a space for searching)
+xdotool type $(grep -v '^#' "$snippets_file" | dmenu -i -l 50 | cut -d' ' -f1)

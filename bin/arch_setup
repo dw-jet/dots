@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+sudo pacman -S emacs-nativecomp ripgrep fd xdotool xclip dmenu neovim zathura zathura-pdf-mupdf

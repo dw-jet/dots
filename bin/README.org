@@ -1,0 +1,9 @@
+#+NAME: Setting up my scripts
+
+* Custom bash scripts
+On a new arch machine, arch setup needs to be run first. That installs xdotools and xclip which are required for the other scripts to work.
+
+#+BEGIN_SRC bash
+mv bash_scripts ~/bin
+echo "PATH=$HOME/bin:$PATH" >> $HOME/.bashrc
+#+END_SRC

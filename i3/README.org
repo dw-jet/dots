@@ -1,0 +1,9 @@
+#+NAME: i3 Config
+
+* i3 settings
+These contain custom bindings and calls to setup my work environment. Requires [[https://github.com/dw-jet/bash-scripts][my bash scripts]] in ~/bin and ~/bin in the path.
+
+#+BEGIN_SRC bash
+mkdir -p ~/.config/i3
+cp -ri * ~/.config/i3/
+#+END_SRC

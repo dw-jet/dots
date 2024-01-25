@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# Use xclip (needs installed) to capture highlighted text to var
+bookmark="$(xclip -o)"
+
+# Path to a dedicated snippets text file
+file="$HOME/.local/share/snippets.txt"
+
+# Grep the line to make sure it doesn't exit
+if grep -q "^$bookmark$" "$file"; then
+	notify-send "Damn" "You already bookmarked this."
+else
+	echo "$bookmark" >> "$file"
+	notify-send "Alright." "$bookmark has been snipped"
+fi
+
