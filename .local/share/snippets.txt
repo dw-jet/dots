@@ -1,0 +1,4 @@
+https://github.com/dw-jet/
+/home/james/.local/share/snippets.txt
+/home/james/.config/i3/config
+/home/james/.config/nvim
