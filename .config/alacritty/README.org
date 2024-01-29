@@ -1,0 +1,8 @@
+#+NAME: Setting up Alacritty
+
+* Alacritty settings
+Installation is as simple as moving this folder to .config
+
+#+BEGIN_SRC bash
+	cp -r . ~/.config/
+#+END_SRC

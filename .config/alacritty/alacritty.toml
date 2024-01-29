@@ -1,0 +1,16 @@
+import = [
+"~/.config/alacritty/colors.toml"
+]
+
+[shell]
+program = "/usr/bin/fish"
+
+[font]
+size = 9
+
+normal = { family = "GoMono Nerd Font", style = "Regular" }
+
+[window]
+opacity = 0.9 
+padding = { x = 15, y = 15 }
+

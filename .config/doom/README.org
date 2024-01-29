@@ -1,0 +1,10 @@
+#+NAME: Doom Files
+
+* Doom emacs config
+
+These should be installed in the doom directory under config. Make sure ~/.emacs.d is deleted if it exists.
+
+#+BEGIN_SRC bash
+mkdir -p ~/.config/doom/
+cp -i * ~/.config/doom/
+#+END_SRC
